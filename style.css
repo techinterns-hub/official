@@ -833,3 +833,19 @@ footer a:hover {
   color: #fff; /* Adjust for your navbar bg */
   font-weight: bold;
 }
+
+.mobile-warning {
+  display: none;
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #ffeeba;
+}
+
+@media (max-width: 768px) {
+  .mobile-warning {
+    display: block;
+  }
+}
